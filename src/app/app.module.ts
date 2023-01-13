@@ -8,6 +8,9 @@ import { MainComponent } from './main/main.component';
 import { UserInformationComponent } from './user-information/user-information.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContainerComponent } from './container/container.component';
+import { SelectionComponent } from './selection/selection.component';
+import { PickAddComponent } from './pick-add/pick-add.component';
+import { FinishingComponent } from './finishing/finishing.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ContainerComponent } from './container/container.component';
     MainComponent,
     UserInformationComponent,
     FooterComponent,
-    ContainerComponent
+    ContainerComponent,
+    SelectionComponent,
+    PickAddComponent,
+    FinishingComponent
   ],
   imports: [
     BrowserModule,
