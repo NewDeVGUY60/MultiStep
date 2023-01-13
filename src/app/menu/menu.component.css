@@ -31,6 +31,11 @@ li a:hover{
     background-color: hsl(206, 94%, 87%);
     color: hsl(213, 96%, 18%);
 }
+li a:active{
+    background-color: hsl(206, 94%, 87%);
+    color: hsl(213, 96%, 18%);
+}
+
 li{
     list-style: none;
 }

@@ -1,19 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
-@font-face {
+/* @font-face {
     font-family: "Ubuntu";
     src: url("/src/assets/fonts/Ubuntu-Bold.ttf");
+} */
+html{
+    margin: 0;
+    padding: 0;
 }
 body{
     font-family: "Ubuntu";
+    background-color: hsl(206, 94%, 87%);
     margin: 0;
     padding: 0;
-    justify-content: center;
-    background-color: hsl(206, 94%, 87%);
 }
 
 a{
     text-decoration: none;
 }
 p{
+    margin: 0;
+    padding: 0;
     color:hsl(231, 11%, 63%);
 }

@@ -1,6 +1,8 @@
 #order{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 #shift{
     margin-top: -100px;
