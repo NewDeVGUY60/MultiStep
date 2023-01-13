@@ -1,0 +1,32 @@
+footer{
+    min-width: 375px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+}
+button{
+    
+    margin: 0 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.back{
+    background-color: hsl(229, 24%, 87%);
+    padding: 10px 15px;
+}
+.back a {
+    color: gray;
+}
+.next{
+   background-color: hsl(213, 96%, 18%);
+   padding: 10px 15px;
+   border-radius: 5px;
+}
+.next a {
+    color: gray;
+    color: white;
+}
