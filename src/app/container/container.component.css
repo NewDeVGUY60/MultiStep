@@ -1,0 +1,6 @@
+#card{
+    min-width: 355px;
+    min-height: 70vh;
+    border-radius: 10px;
+    background-color: white;
+}

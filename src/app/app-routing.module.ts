@@ -5,6 +5,9 @@ import { UserInformationComponent } from './user-information/user-information.co
 const routes: Routes = [
   {path:"" , component : UserInformationComponent },
   {path:"user-information" , component : UserInformationComponent },
+  {path:"plan" , component : UserInformationComponent },
+  {path:"user-information" , component : UserInformationComponent },
+  {path:"user-information" , component : UserInformationComponent },
 ];
 
 @NgModule({
