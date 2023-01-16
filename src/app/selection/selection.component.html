@@ -1,1 +1,52 @@
-<p>selection works!</p>
+<div id="card">
+    <div class="content">
+        <div class="info">
+
+            <h1>Select your plan</h1>
+
+            <p>You have the option of monthly or yearly billing.</p>
+        </div>
+
+
+
+        <div class="container">
+            <input type="radio" id="arcade" name="plan" ngModel>
+            <label for="arcade">
+                <div class="img arcade"></div>
+                <div>
+                    <h2>Arcade</h2>
+                    <p>$9/mo</p>
+                    <h4>2 months free</h4>
+                </div>
+            </label>
+            <input type="radio" id="advenced" name="plan" ngModel>
+            <label for="advenced">
+                <div class="img advenced"></div>
+                <div>
+                    <h2>Advenced</h2>
+                    <p>$12/mo</p>
+                    <h4>2 months free</h4>
+                </div>
+            </label>
+            <input type="radio" id="pro" name="plan" >
+            <label for="pro">
+                <div class="img pro"></div>
+                <div>
+                    <h2>Pro</h2>
+                    <p>$15/mo</p>
+                    <h4>2 months free</h4>
+                </div>
+            </label>
+        </div>
+    </div>
+    <div id="monthly_yearly">
+        <input type="checkbox" id="m_or_y" name="m_or_y" >
+        <label for="m_or_y">
+            <h3>Monthly</h3>
+            <div id="box_selector">
+                <div [ngClass]="{'translate' : true }" id="selector"></div>
+            </div>
+            <h3>Yearly</h3>
+        </label>
+    </div>
+</div>

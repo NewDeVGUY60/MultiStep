@@ -37,3 +37,8 @@ li a:hover{
 li{
     list-style: none;
 }
+
+.active{
+    background-color: hsl(206, 94%, 87%);
+    color: hsl(213, 96%, 18%);
+}

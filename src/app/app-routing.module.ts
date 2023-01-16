@@ -7,15 +7,16 @@ import { FinishingComponent } from './finishing/finishing.component';
 
 
 const routes: Routes = [
-  {path:"" , component : UserInformationComponent },
-  {path:"user-information" , component : UserInformationComponent },
-  {path:"selection-plan" , component : SelectionComponent },
-  {path:"pick-add-ons" , component : PickAddComponent },
-  {path:"finishing-up" , component : FinishingComponent },
-];
+  { path: "", redirectTo: "user-information", pathMatch: "full" },
+  {path: "user-information", component: UserInformationComponent},
+  {path: "selection-plan", component: SelectionComponent},
+  {path: "pick-add-ons", component: PickAddComponent},
+  { path: "finishing-up", component: FinishingComponent }]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
+

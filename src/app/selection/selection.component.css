@@ -1,0 +1,98 @@
+h1 {
+  padding: 0;
+}
+
+h4,
+h2,h3 {
+  padding: 5px 0;
+  margin: 0;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.container {
+  gap: 20px;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-size: cover;
+}
+
+.arcade {
+  background: url(src/assets/images/icon-arcade.svg);
+}
+
+.advenced {
+  background: url(src/assets/images/icon-advanced.svg);
+}
+
+.pro {
+  background: url(src/assets/images/icon-pro.svg);
+}
+
+.content input {
+  position: absolute;
+  left: -9999px;
+}
+
+label {
+  display: flex;
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 10px;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid;
+  transition: background-color .2s, box-shadow .2s;
+}
+
+label::before {
+  display: flex;
+  transition: background-color .2s;
+}
+
+
+.content label:hover,
+.content input:focus+label {
+  border: solid 1px blueviolet;
+  background-color: rgb(238, 219, 255);
+}
+#monthly_yearly{
+  padding-bottom: 20px;
+}
+#monthly_yearly label{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 234, 255);
+
+}
+
+#box_selector{
+  width: 45px;
+  height: 20px;
+  background-color: rgb(17, 17, 88);
+  border-radius: 10px;
+}
+#selector{
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: white;
+  translate: 25px 2px ;
+  transition:all 0.2s;
+}
+
+.translate{
+  translate: 4px 2px;
+  transition:all 0.2s;
+}

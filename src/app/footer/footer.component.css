@@ -1,19 +1,19 @@
 footer{
     min-width: 375px;
-    height: 70px;
-    margin: 0;
-    padding: 0;
+    height: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: hsl(0, 0%, 100%);
+    
 }
 button{
     margin: 0 20px;
     font-weight: 500;
     border: none;
     cursor: pointer;
+    
 }
 .back{
     background-color: white;

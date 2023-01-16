@@ -1,4 +1,4 @@
 <footer>
-    <button class="back" *ngIf="this.firstPage"><a [routerLink]="['{{back}}']">Go Back</a></button>
-    <button class="next"><a [routerLink]="['{{next}}']">Next Step</a></button>
+    <button class="back" *ngIf="ngOnInit()"><a (click)="backLink()">Go Back</a></button>
+    <button class="next" ><a (click)="nextLink()">Next Step</a></button>
 </footer>
